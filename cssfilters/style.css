@@ -1,2 +1,18 @@
 /* a css comment example */
 
+.blur {
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
+h1, ul, p {
+
+text-align: center;
+	
+}
+
+ul {
+list-style-type: none;
+background-color: orange;
+padding: 10px;
+}

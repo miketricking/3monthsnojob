@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- a html comment test --> 
-		<title>CSS magic filters</title>
+		<title>CSS filters</title>
 		
 		<link type="text/css" rel="stylesheet" href="style.css"
 		
@@ -10,7 +10,40 @@
 	
 	
 <body>
+
 	<h1>CSS magic</h1>
+	<p>CSS filter functions are supported prefix-free in FF since v35 (stable Jan 2015). It has been supported with the -webkit- prefix in Safari, Chrome and Opera for a few years now. Support for filters is better with IE10+. You can improve your browser support by moving the images you want to filter into inline SVG tags. It requires extra markup but the end result looks the same</p>
+	
+	<p>The example used below is the blur filter. However there is also:</p>
+		<ul>
+			<li>brightness()</li>
+			<li>contrast()</li>
+			<li>drop-shadow()</li>
+			<li>grayscale()</li>
+			<li>hue-rotate()</li>
+			<li>invert()</li>
+			<li>opacity()</li>
+			<li>saturate()</li>
+			<li>sepia()</li>
+			<li>url() - for applying SVG filters</li>
+			<li>custom() -"coming soon"</li>
+		</ul>
+		
+	<p>They can be used alongside animation effects and actions, for example a black and white image when you hover over will slowly fade and the colour will be revealed. More info on css filters can be found here <a href="https://css-tricks.com/almanac/properties/f/filter/">css-tricks filter</a></p>
+	
+	<!-- putting the image/s in a table for the sake of it -->
+	<table>
+		<thead>
+			<th> The filters </th>
+		</thead>
+		
+	<tbody>	
+		<td>
+			<img class="blur" src="images/bgim.jpg">
+		</td>
+	</tbody
+	
+	
 </body>
 
 </html>
