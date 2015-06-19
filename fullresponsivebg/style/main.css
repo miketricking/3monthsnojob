@@ -1,0 +1,26 @@
+body {
+
+  background: url(images/image.jpg) center center no-repeat fixed;
+   background-size: cover;
+  
+}
+
+#bg {
+text-align:center;
+}
+
+div h1 {
+
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-family: arial;
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 80px;
+  border-radius: 3px;
+  }
+  
