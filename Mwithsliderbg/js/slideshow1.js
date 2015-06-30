@@ -43,8 +43,9 @@ var slideshow = (function(window, undefined) {
    */
   var slides = [
     'img/bird-a.jpg',
-	'img/bird-b.jpg',
-	'img/bird-c.jpg'
+    'img/bird-b.jpg',
+    'img/bird-c.jpg',
+    'img/bird-d.jpg'
   ];
 
   /**
@@ -75,9 +76,7 @@ var slideshow = (function(window, undefined) {
     }
   ];
 
-  
-  
- /**
+  /**
    * Set global easing.
    * @type {Function(currentTime)}
    */
